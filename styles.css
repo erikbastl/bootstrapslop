@@ -1,0 +1,17 @@
+/* Změna pozadí celé stránky, ať to není nuda */
+body {
+    background-color: #f8f9fa; 
+}
+
+/* PŘEPSÁNÍ BOOTSTRAPU */
+/* 1. Klidový stav tlačítka */
+.btn-primary {
+    background-color: #8a2be2; /* Změna na fialovou */
+    border-color: #8a2be2;     /* I rámeček musí být fialový */
+}
+
+/* 2. Stav po najetí myší (hover) - vždy udělejte barvu trochu tmavší nebo světlejší */
+.btn-primary:hover {
+    background-color: #6a1bb3; 
+    border-color: #6a1bb3;
+}
